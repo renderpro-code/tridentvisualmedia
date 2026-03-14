@@ -1,0 +1,23 @@
+# -------------------------------------------------------
+# Trident Visual Media — Navigation Menus
+# -------------------------------------------------------
+
+[[main]]
+  name = "Books"
+  pageRef = "series"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 20
+
+[[main]]
+  name = "Newsletter"
+  pageRef = "newsletter"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40

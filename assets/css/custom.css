@@ -1,0 +1,54 @@
+/* -------------------------------------------------------
+   Trident Visual Media — Custom CSS overrides for Congo
+   File: assets/css/custom.css
+   Congo loads this automatically when named custom.css
+   ------------------------------------------------------- */
+
+/* Buy button styles */
+.buy-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.buy-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.buy-btn:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.buy-btn.amazon {
+  background-color: #FF9900;
+  color: #111111;
+}
+
+.buy-btn.goodreads {
+  background-color: #553B08;
+  color: #F4F1EA;
+}
+
+/* Series page book cover thumbnails */
+.book-cover {
+  max-width: 200px;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+/* Slightly tighten hero text on mobile */
+@media (max-width: 640px) {
+  .buy-links {
+    flex-direction: column;
+  }
+  .buy-btn {
+    text-align: center;
+  }
+}
