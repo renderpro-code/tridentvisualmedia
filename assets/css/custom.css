@@ -1,27 +1,35 @@
-/* Trident Visual Media — Congo theme overrides */
-
-/* Hero — dark cinematic gradient */
-.home-hero,
-.article-header,
-header.page-header {
-  background: linear-gradient(135deg, #0a0a0f 0%, #0f1420 40%, #0d1117 100%) !important;
+/* Kit form dark theme override */
+.formkit-form[data-uid="45e167a91c"],
+.formkit-form[data-uid="45e167a91c"] [data-style="minimal"] {
+  background-color: #1a2030 !important;
+  border: 1px solid #2e3a4e !important;
+  border-radius: 8px !important;
 }
 
-/* Subtle ambient light overlay */
-.home-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at 30% 50%, rgba(74,144,217,0.06) 0%, transparent 60%),
-    radial-gradient(ellipse at 70% 20%, rgba(217,144,74,0.04) 0%, transparent 50%);
-  pointer-events: none;
+.formkit-form[data-uid="45e167a91c"] .formkit-background {
+  display: none !important;
 }
 
-/* Hero text readability */
-.home-hero h1,
-.home-hero p {
-  text-shadow: 0 2px 20px rgba(0,0,0,0.8);
+.formkit-form[data-uid="45e167a91c"] .formkit-header h2 {
+  color: #e6edf3 !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] .formkit-subheader {
+  color: #8b949e !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] .formkit-input {
+  background-color: #0d1117 !important;
+  color: #e6edf3 !important;
+  border-color: #30363d !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] .formkit-submit {
+  background-color: #1677be !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] .formkit-guarantee {
+  color: #8b949e !important;
 }
 
 /* Buy button styles */
@@ -48,41 +56,4 @@ header.page-header {
 }
 
 .buy-btn.amazon {
-  background-color: #FF9900;
-  color: #111111;
-}
-
-.buy-btn.goodreads {
-  background-color: #553B08;
-  color: #F4F1EA;
-}
-
-/* Book cover thumbnails */
-.book-cover {
-  max-width: 200px;
-  border-radius: 4px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
-}
-
-@media (max-width: 640px) {
-  .buy-links { flex-direction: column; }
-  .buy-btn { text-align: center; }
-}
-
-/* Kit form dark theme override */
-.formkit-form {
-  background-color: #1e2433 !important;
-  border-color: #2e3a4e !important;
-}
-
-.formkit-header h2,
-.formkit-subheader,
-.formkit-guarantee {
-  color: #c9d1d9 !important;
-}
-
-.formkit-input {
-  background-color: #0d1117 !important;
-  color: #c9d1d9 !important;
-  border-color: #2e3a4e !important;
-}
+  backgro
