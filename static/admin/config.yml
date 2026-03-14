@@ -2,8 +2,8 @@ backend:
   name: github
   repo: renderpro-code/tridentvisualmedia
   branch: main
-  base_url: https://tridentvisualmedia.com
-  auth_endpoint: api/auth
+  base_url: "https://tridentvisualmedia.com"
+  auth_endpoint: "api/auth"
 
 media_folder: static/images
 public_folder: /images
@@ -56,8 +56,8 @@ backend:
   name: github
   repo: renderpro-code/tridentvisualmedia
   branch: main
-  base_url: https://tridentvisualmedia.com
-  auth_endpoint: api/auth
+  base_url: "https://tridentvisualmedia.com"
+  auth_endpoint: "api/auth"
 
 media_folder: static/images
 public_folder: /images
