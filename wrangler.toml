@@ -1,13 +1,2 @@
-# -------------------------------------------------------
-# Trident Visual Media — Cloudflare Pages build config
-# Place this file at the root of your repository
-# -------------------------------------------------------
-
-[build]
-  command = "hugo --minify"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.147.0"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+name = "tridentvisualmedia"
+pages_build_output_dir = "public"
