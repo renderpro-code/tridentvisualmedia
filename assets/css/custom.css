@@ -1,14 +1,35 @@
-/* -------------------------------------------------------
-   Trident Visual Media — Custom CSS overrides for Congo
-   File: assets/css/custom.css
-   Congo loads this automatically when named custom.css
-   ------------------------------------------------------- */
+/* Trident Visual Media — Congo theme overrides */
+
+/* Hero — dark cinematic gradient */
+.home-hero,
+.article-header,
+header.page-header {
+  background: linear-gradient(135deg, #0a0a0f 0%, #0f1420 40%, #0d1117 100%) !important;
+}
+
+/* Subtle ambient light overlay */
+.home-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 30% 50%, rgba(74,144,217,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 20%, rgba(217,144,74,0.04) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Hero text readability */
+.home-hero h1,
+.home-hero p {
+  text-shadow: 0 2px 20px rgba(0,0,0,0.8);
+}
 
 /* Buy button styles */
 .buy-links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  margin: 2rem 0;
 }
 
 .buy-btn {
@@ -36,19 +57,14 @@
   color: #F4F1EA;
 }
 
-/* Series page book cover thumbnails */
+/* Book cover thumbnails */
 .book-cover {
   max-width: 200px;
   border-radius: 4px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.4);
 }
 
-/* Slightly tighten hero text on mobile */
 @media (max-width: 640px) {
-  .buy-links {
-    flex-direction: column;
-  }
-  .buy-btn {
-    text-align: center;
-  }
+  .buy-links { flex-direction: column; }
+  .buy-btn { text-align: center; }
 }
