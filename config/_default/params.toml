@@ -9,6 +9,11 @@ autoSwitchAppearance = true    # Respect OS preference
 enableSearch = true
 enableCodeCopy = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # -------------------------------------------------------
 # Site metadata
 # -------------------------------------------------------
