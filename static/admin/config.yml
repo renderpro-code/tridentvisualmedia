@@ -5,9 +5,11 @@
 
 backend:
   name: github
-  repo: YOURUSERNAME/tridentvisualmedia
+  repo: renderpro-code/tridentvisualmedia
   branch: main
 
+base_url: https://tridentvisualmedia.com
+  auth_endpoint: api/auth
 media_folder: static/images
 public_folder: /images
 
