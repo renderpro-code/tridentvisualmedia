@@ -9,101 +9,60 @@ media_folder: static/images
 public_folder: /images
 
 collections:
-  - name: "books"
-    label: "Books"
-    label_singular: "Book"
-    folder: "content/series"
+  - name: books
+    label: Books
+    folder: content/series
     create: true
-    nested:
-      depth: 2
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Series", name: "series", widget: "select", options: ["miller-crime-thriller", "echoes-of-the-void"] }
-      - { label: "Series Order", name: "seriesOrder", widget: "number", default: 1 }
-      - { label: "Publication Date", name: "date", widget: "datetime" }
-      - { label: "Cover Image", name: "cover", widget: "image", required: false }
-      - { label: "Blurb", name: "description", widget: "text" }
-      - { label: "Amazon URL", name: "amazon_url", widget: "string", required: false }
-      - { label: "Goodreads URL", name: "goodreads_url", widget: "string", required: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: Title
+        name: title
+        widget: string
+      - label: Series
+        name: series
+        widget: select
+        options:
+          - miller-crime-thriller
+          - echoes-of-the-void
+      - label: Publication Date
+        name: date
+        widget: datetime
+      - label: Cover Image
+        name: cover
+        widget: image
+        required: false
+      - label: Blurb
+        name: description
+        widget: text
+      - label: Amazon URL
+        name: amazon_url
+        widget: string
+        required: false
+      - label: Draft
+        name: draft
+        widget: boolean
+        default: false
+      - label: Body
+        name: body
+        widget: markdown
 
-  - name: "blog"
-    label: "Blog Posts"
-    label_singular: "Blog Post"
-    folder: "content/blog"
+  - name: blog
+    label: Blog Posts
+    folder: content/blog
     create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description (SEO)", name: "description", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "About"
-cd ~/tridentvisualmedia
-git add .
-git commit -m "Fix CMS config YAML duplicate keys"
-git push
-cat > ~/tridentvisualmedia/static/admin/config.yml << 'EOF'
-backend:
-  name: github
-  repo: renderpro-code/tridentvisualmedia
-  branch: main
-  base_url: "https://tridentvisualmedia.com"
-  auth_endpoint: "api/auth"
-
-media_folder: static/images
-public_folder: /images
-
-collections:
-  - name: "books"
-    label: "Books"
-    label_singular: "Book"
-    folder: "content/series"
-    create: true
-    nested:
-      depth: 2
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Series", name: "series", widget: "select", options: ["miller-crime-thriller", "echoes-of-the-void"] }
-      - { label: "Series Order", name: "seriesOrder", widget: "number", default: 1 }
-      - { label: "Publication Date", name: "date", widget: "datetime" }
-      - { label: "Cover Image", name: "cover", widget: "image", required: false }
-      - { label: "Blurb", name: "description", widget: "text" }
-      - { label: "Amazon URL", name: "amazon_url", widget: "string", required: false }
-      - { label: "Goodreads URL", name: "goodreads_url", widget: "string", required: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "blog"
-    label: "Blog Posts"
-    label_singular: "Blog Post"
-    folder: "content/blog"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description (SEO)", name: "description", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "About"
-        name: "about"
-        file: "content/about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Body", name: "body", widget: "markdown" }
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Description
+        name: description
+        widget: text
+      - label: Draft
+        name: draft
+        widget: boolean
+        default: false
+      - label: Body
+        name: body
+        widget: markdown
