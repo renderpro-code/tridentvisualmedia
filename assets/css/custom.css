@@ -105,3 +105,13 @@ figure img {
 .formkit-form[data-uid="45e167a91c"] [data-style="minimal"] {
   padding: 24px 32px !important;
 }
+
+/* Remove empty space at top of Kit form */
+.formkit-form[data-uid="45e167a91c"] .formkit-background {
+  display: none !important;
+  height: 0 !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] {
+  min-height: 0 !important;
+}
