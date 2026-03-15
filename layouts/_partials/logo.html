@@ -1,12 +1,16 @@
 {{- if .Site.Params.header.logo }}
   {{- $logo := resources.Get .Site.Params.header.logo }}
   {{- if $logo }}
-  <img
-    src="{{ $logo.Permalink }}"
-    style="height:120px;width:auto;mix-blend-mode:lighten;"
-    alt="{{ .Site.Title }}"
-  />
+  <a href="{{ .Site.BaseURL }}">
+    <img
+      src="{{ $logo.Permalink }}"
+      style="height:120px;width:auto;mix-blend-mode:lighten;"
+      alt="{{ .Site.Title }}"
+    />
+  </a>
   {{- end }}
 {{- else }}
-  <span class="text-xl font-semibold">{{ .Site.Title }}</span>
+  <a href="{{ .Site.BaseURL }}">
+    <span class="text-xl font-semibold">{{ .Site.Title }}</span>
+  </a>
 {{- end }}

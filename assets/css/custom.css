@@ -81,3 +81,10 @@ header nav a[rel="me"] {
   .buy-links { flex-direction: column; }
   .buy-btn { text-align: center; }
 }
+
+/* Author card — remove black circle background */
+.author img,
+figure img {
+  mix-blend-mode: lighten !important;
+  background: transparent !important;
+}
