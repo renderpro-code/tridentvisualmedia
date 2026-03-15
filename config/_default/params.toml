@@ -2,7 +2,8 @@
 # Trident Visual Media — Congo Theme Parameters
 # -------------------------------------------------------
 
-colorScheme = "slate"          # Dark cinematic default
+colorScheme = "slate" 
+logo = "images/trident-logo.png"         # Dark cinematic default
 defaultAppearance = "dark"     # Start in dark mode
 autoSwitchAppearance = true    # Respect OS preference
 
