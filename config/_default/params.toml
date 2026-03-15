@@ -3,7 +3,9 @@
 # -------------------------------------------------------
 
 colorScheme = "slate" 
-logo = "trident-logo.png"         # Dark cinematic default
+[header]
+  logo = "trident-logo.png"
+  logoDark = "trident-logo.png"        # Dark cinematic default
 defaultAppearance = "dark"     # Start in dark mode
 autoSwitchAppearance = true    # Respect OS preference
 
