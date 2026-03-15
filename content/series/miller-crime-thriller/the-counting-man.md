@@ -1,6 +1,6 @@
 ---
 title: "The Counting Man"
-date: 2026-03-01
+date: 2024-01-01
 series: ["miller-crime-thriller"]
 seriesOrder: 1
 description: "He counted everything. He never once counted himself. A literary crime thriller about the stories brilliant people tell themselves — and the people left behind when those stories collapse."
