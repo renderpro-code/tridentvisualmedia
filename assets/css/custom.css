@@ -1,3 +1,15 @@
+/* Hide black box around logo — blend with dark background */
+header nav a[href="/"] img {
+  mix-blend-mode: lighten;
+  max-height: 48px !important;
+  width: auto !important;
+}
+
+/* Hide redundant "Trident Visual Media" text next to logo */
+header nav a[rel="me"] {
+  display: none !important;
+}
+
 /* Kit form dark theme override */
 .formkit-form[data-uid="45e167a91c"],
 .formkit-form[data-uid="45e167a91c"] [data-style="minimal"] {
@@ -56,16 +68,16 @@
 }
 
 .buy-btn.amazon {
-  backgro
-
-/* Logo nav fixes */
-header img[alt="Trident Visual Media"] {
-  mix-blend-mode: lighten;
-  max-height: 60px;
-  width: auto;
+  background-color: #FF9900;
+  color: #111111;
 }
 
-/* Hide site name text next to logo since logo includes text */
-header .site-name {
-  display: none;
+.buy-btn.goodreads {
+  background-color: #553B08;
+  color: #F4F1EA;
+}
+
+@media (max-width: 640px) {
+  .buy-links { flex-direction: column; }
+  .buy-btn { text-align: center; }
 }
