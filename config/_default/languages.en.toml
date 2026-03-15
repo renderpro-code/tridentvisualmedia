@@ -1,0 +1,14 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Trident Visual Media"
+
+[params]
+  logo = "trident-logo.png"
+  description = "Publishers of the Miller Crime Thriller series and Echoes of the Void science fiction series."
+
+[author]
+  name = "Trident Visual Media"
+  image = "trident-logo.png"
+  headline = "Crime Thrillers & Science Fiction"
+  bio = "Trident Visual Media publishes gripping crime thrillers and boundary-pushing science fiction."
