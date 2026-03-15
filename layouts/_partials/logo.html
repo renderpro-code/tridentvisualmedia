@@ -1,0 +1,14 @@
+{{- if .Site.Params.header.logo }}
+  {{- $logo := resources.Get .Site.Params.header.logo }}
+  {{- if $logo }}
+  <img
+    src="{{ $logo.Permalink }}"
+    width="{{ div $logo.Width 2 }}"
+    height="{{ div $logo.Height 2 }}"
+    style="max-height:48px;width:auto;mix-blend-mode:lighten;"
+    alt="{{ .Site.Title }}"
+  />
+  {{- end }}
+{{- else }}
+  <span class="text-xl font-semibold">{{ .Site.Title }}</span>
+{{- end }}
