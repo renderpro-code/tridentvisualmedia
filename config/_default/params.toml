@@ -3,7 +3,7 @@
 # -------------------------------------------------------
 
 colorScheme = "slate" 
-logo = "images/trident-logo.png"         # Dark cinematic default
+logo = "trident-logo.png"         # Dark cinematic default
 defaultAppearance = "dark"     # Start in dark mode
 autoSwitchAppearance = true    # Respect OS preference
 
@@ -20,7 +20,7 @@ enableCodeCopy = true
 # -------------------------------------------------------
 [author]
   name = "Trident Visual Media"
-  image = "images/trident-logo.png"
+  image = "trident-logo.png"
   headline = "Crime Thrillers & Science Fiction"
   bio = "Trident Visual Media publishes gripping crime thrillers and boundary-pushing science fiction. Home of the Miller Crime Thriller series and the Echoes of the Void series."
   links = [
