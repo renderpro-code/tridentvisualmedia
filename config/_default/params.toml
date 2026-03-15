@@ -1,47 +1,18 @@
-# -------------------------------------------------------
-# Trident Visual Media — Congo Theme Parameters
-# -------------------------------------------------------
-
-colorScheme = "slate" 
-[header]
-  logo = "trident-logo.png"
-  logoDark = "trident-logo.png"        # Dark cinematic default
-defaultAppearance = "dark"     # Start in dark mode
-autoSwitchAppearance = true    # Respect OS preference
-
+colorScheme = "slate"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[header]
+  logo = "trident-logo.png"
+  logoDark = "trident-logo.png"
 
-# -------------------------------------------------------
-# Site metadata
-# -------------------------------------------------------
-[author]
-  name = "Trident Visual Media"
-  image = "trident-logo.png"
-  headline = "Crime Thrillers & Science Fiction"
-  bio = "Trident Visual Media publishes gripping crime thrillers and boundary-pushing science fiction. Home of the Miller Crime Thriller series and the Echoes of the Void series."
-  links = [
-    { amazon = "https://www.amazon.com/stores/author/B0GPFQV7YZ?_encoding=UTF8&ref_=aufs_ap_ahdr_dsk_ah&pd_rd_w=V6bsZ&content-id=amzn1.sym.7e190e19-9f6f-4df8-807a-5a7608594741&pf_rd_p=7e190e19-9f6f-4df8-807a-5a7608594741&pf_rd_r=135-8044694-8330632&pd_rd_wg=VqUAq&pd_rd_r=2f63442e-731f-4862-bcce-b5201a023b0c&ccs_id=b7216f80-142c-4b49-aedb-a275cb4ddbf7" },
-    { goodreads = "https://www.goodreads.com/user/show/120861358-jesse-siglow" },
-  ]
-
-# -------------------------------------------------------
-# Homepage layout
-# -------------------------------------------------------
 [homepage]
   layout = "hero"
-  homepageImage = "images/hero-bg.jpg"
   showRecent = true
   recentLimit = 3
 
-# -------------------------------------------------------
-# Article / page settings
-# -------------------------------------------------------
 [article]
   showBreadcrumbs = true
   showDate = true
@@ -51,20 +22,12 @@ enableCodeCopy = true
   showTableOfContents = false
   showRelatedContent = true
 
-# -------------------------------------------------------
-# List pages (series index, blog index)
-# -------------------------------------------------------
 [list]
   showBreadcrumbs = true
-  showTableOfContents = false
   groupByYear = false
 
-# -------------------------------------------------------
-# SEO & social sharing
-# -------------------------------------------------------
-[sitemap]
-  changefreq = "weekly"
-
-[fathomAnalytics]
-  # Add your Fathom site ID here if you use it (privacy-friendly GA alternative)
-  # site = "ABCDE12345"
+[author]
+  name = "Trident Visual Media"
+  image = "trident-logo.png"
+  headline = "Crime Thrillers & Science Fiction"
+  bio = "Trident Visual Media publishes gripping crime thrillers and boundary-pushing science fiction. Home of the Miller Crime Thriller series and the Echoes of the Void series."
