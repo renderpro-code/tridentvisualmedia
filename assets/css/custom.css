@@ -88,3 +88,20 @@ figure img {
   mix-blend-mode: lighten !important;
   background: transparent !important;
 }
+/* Fix Kit form internal spacing */
+.formkit-form[data-uid="45e167a91c"] .formkit-header {
+  margin-bottom: 12px !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] .formkit-fields {
+  margin-top: 16px !important;
+}
+
+.formkit-form[data-uid="45e167a91c"] .formkit-field input {
+  margin-bottom: 8px !important;
+}
+
+/* Remove excess top space in form */
+.formkit-form[data-uid="45e167a91c"] [data-style="minimal"] {
+  padding: 24px 32px !important;
+}
