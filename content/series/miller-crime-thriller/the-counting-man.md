@@ -11,7 +11,7 @@ tags: ["crime thriller", "detective fiction", "literary thriller", "kindle", "Ta
 
 **He counted everything. He never once counted himself.**
 
-Robert Adkins walks into every room and takes inventory. The people. The exits. The small wrong details most people never notice. It's made him a brilliant film producer, a careful husband, and — for seven years — an invisible criminal.
+Robert Adkins walks into every room and takes inventory. The people. The exits. The small wrong details most people never notice. It's made him a brilliant film producer, a careful husband, and an invisible criminal.
 
 Then Detective K. Miller arrests him in a mall food court, in front of his wife and children, and the counting begins to unravel.
 
