@@ -127,3 +127,9 @@ figure img {
   padding: 12px 24px !important;
   width: 100% !important;
 }
+
+/* Hide date on non-article pages */
+.page time,
+.single time {
+  display: none;
+}
