@@ -21,8 +21,8 @@ The Counting Man is available now on Amazon Kindle.
 
 [Get The Counting Man on Amazon](https://www.amazon.com/dp/B0GR8G9NMW)
 
-Print edition: 
-The Counting Man - https://www.amazon.com/Counting-Man-Miller-Crime-Thriller/dp/B0GS21KXH8/ref=sr_1_2?crid=1Y09NNYG4NFA9&dib=eyJ2IjoiMSJ9.sBXxwetNaZoL6njLOAga4foSLi8n131L14e1WTV9cVw6bSWUdGih3-2dd4p69XkAXYFyKUj266MJif_ULj1qrdaDeNgRegK28ajvFD_yhs74rtSkqS51zv0jHbTfjnGa1oV0Qyysw3Lg2jO1wdio00oSZVZc5-9CGcZ1opQAMEcFzbCL9gaYP95wGFMEhDYqh8b5ZxbqBbTI90-nU6QmodotNnMwA3jMXyrIXd9q2oA.k85cQWmBtPJcuVZAGoOdULJDZjCG5uaXfMjjcjyThmI&dib_tag=se&keywords=the+counting+man&qid=1773697079&s=books&sprefix=%2Cstripbooks%2C167&sr=1-2
+[Print edition:](https://www.amazon.com/Counting-Man-Miller-Crime-Thriller/dp/B0GS21KXH8/ref=sr_1_2?crid=1Y09NNYG4NFA9&dib=eyJ2IjoiMSJ9.sBXxwetNaZoL6njLOAga4foSLi8n131L14e1WTV9cVw6bSWUdGih3-2dd4p69XkAXYFyKUj266MJif_ULj1qrdaDeNgRegK28ajvFD_yhs74rtSkqS51zv0jHbTfjnGa1oV0Qyysw3Lg2jO1wdio00oSZVZc5-9CGcZ1opQAMEcFzbCL9gaYP95wGFMEhDYqh8b5ZxbqBbTI90-nU6QmodotNnMwA3jMXyrIXd9q2oA.k85cQWmBtPJcuVZAGoOdULJDZjCG5uaXfMjjcjyThmI&dib_tag=se&keywords=the+counting+man&qid=1773697079&s=books&sprefix=%2Cstripbooks%2C167&sr=1-2)
+
 
 ## About the Miller Crime Thriller Series
 
