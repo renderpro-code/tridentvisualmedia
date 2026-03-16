@@ -1,12 +1,17 @@
-{{ with .Get "amazon" }}
-<div class="buy-links" style="margin: 2rem 0;">
+<div class="buy-links">
+  {{ with .Get "amazon" }}
   <a href="{{ . }}" target="_blank" rel="noopener" class="buy-btn amazon">
-    Buy on Amazon Kindle
+    Buy Kindle Edition
   </a>
-  {{ with $.Get "goodreads" }}
+  {{ end }}
+  {{ with .Get "print" }}
+  <a href="{{ . }}" target="_blank" rel="noopener" class="buy-btn print">
+    Buy Print Edition
+  </a>
+  {{ end }}
+  {{ with .Get "goodreads" }}
   <a href="{{ . }}" target="_blank" rel="noopener" class="buy-btn goodreads">
     View on Goodreads
   </a>
   {{ end }}
 </div>
-{{ end }}

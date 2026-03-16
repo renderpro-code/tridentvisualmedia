@@ -141,3 +141,9 @@ article > div > time,
 header + div time {
   display: none !important;
 }
+
+/* Print edition buy button */
+.buy-btn.print {
+  background-color: #2d6a4f;
+  color: #ffffff;
+}
