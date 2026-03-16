@@ -1,5 +1,6 @@
 ---
 title: "The Miller Crime Thriller Series"
+date: 2026-03-15
 description: "A gripping crime thriller series following Detective Miller through the darkest corners of human nature."
 series: ["miller-crime-thriller"]
 ---
