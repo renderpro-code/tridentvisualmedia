@@ -133,3 +133,11 @@ figure img {
 .single time {
   display: none;
 }
+
+/* Hide dates on all list, taxonomy, and series pages */
+.list time,
+.terms time,
+article > div > time,
+header + div time {
+  display: none !important;
+}
