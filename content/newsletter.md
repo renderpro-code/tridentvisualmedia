@@ -1,5 +1,6 @@
 ---
 title: "Join the Readers List"
+date: 2026-03-15
 description: "Get new release alerts, bonus content, and updates from Trident Visual Media. No spam, ever."
 ---
 
