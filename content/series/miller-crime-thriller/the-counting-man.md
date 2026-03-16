@@ -19,7 +19,7 @@ Then Detective K. Miller arrests him in a mall food court, in front of his wife 
 
 **For fans of Tana French and Harlan Coben** — a literary crime thriller about the stories brilliant people tell themselves, and the people left behind when those stories collapse.
 
-{{< buy-links amazon="https://www.amazon.com/dp/B0GR8G9NMW" >}}
+{{< buy-links amazon="https://www.amazon.com/dp/B0GR8G9NMW" print="https://www.amazon.com/dp/B0GS21KXH8" >}}
 
 ---
 
