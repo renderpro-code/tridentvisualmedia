@@ -1,5 +1,5 @@
 ---
-title: "Echoes of the Void Series"
+title: "The SABLE Compact Series"
 date: 2026-03-15
 description: "A science fiction series set at the edge of known space, where the line between discovery and annihilation is razor thin."
 series: ["echoes-of-the-void"]
