@@ -20,7 +20,7 @@ The Counting Man is his debut novel.
 
 **Miller Crime Thriller Series** — Gritty, atmospheric crime fiction following Detective Miller through cases that test the limits of justice and human endurance.
 
-**Echoes of the Void Series** — Science fiction set at the frontier of known space, where
+**The SABLE Compact Series** — Science fiction set at the frontier of known space, where
 every discovery carries the weight of consequence.
 
 ## Connect
