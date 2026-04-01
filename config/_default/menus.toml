@@ -4,7 +4,7 @@
 
 [[main]]
   name = "Books"
-  pageRef = "series"
+  pageRef = "books"
   weight = 10
 
 [[main]]
