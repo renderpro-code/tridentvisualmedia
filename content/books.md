@@ -30,8 +30,8 @@ layout: "page"
       </a>
     </div>
     <div class="book-info">
-      <p class="book-series">Echoes of the Void · Book 1</p>
-      <h3><a href="/series/echoes-of-the-void/">The Sable Compact</a></h3>
+      <p class="book-series">The SABLE Compact · Book 1</p>
+      <h3><a href="/series/the-sable-compact/">The Sable Compact</a></h3>
       <p class="book-desc">At the edge of known space, every discovery carries the weight of consequence.</p>
       <div class="book-actions">
         <span class="coming-soon-badge">Coming Soon</span>
