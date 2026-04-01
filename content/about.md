@@ -26,5 +26,5 @@ every discovery carries the weight of consequence.
 ## Connect
 
 - [Amazon Author Page](https://amazon.com/author/YOUR-PAGE)
-- [Goodreads](https://goodreads.com/YOUR-PROFILE)
+- [Goodreads][(https://www.goodreads.com/user/show/120861358-jesse-siglow)
 - [Newsletter](/newsletter/)
