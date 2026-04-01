@@ -1,6 +1,6 @@
 ---
 title: "Introducing The Counting Man — Book 1 in the Miller Crime Thriller Series"
-date: 2026-16-14
+date: 2026-03-14
 tags: ["crime thriller", "new release", "miller series", "kindle", "literary thriller"]
 description: "The Counting Man is now available on Amazon Kindle. A literary crime thriller about a brilliant man whose meticulous double life begins to unravel the moment Detective Miller arrests him in a mall food court."
 ---
