@@ -5,7 +5,7 @@ tags: ["crime thriller", "new release", "miller series", "kindle", "literary thr
 description: "The Counting Man is now available on Amazon Kindle. A literary crime thriller about a brilliant man whose meticulous double life begins to unravel the moment Detective Miller arrests him in a mall food court."
 ---
 
-He walked into every room and took inventory-the people, the exits, the small wrong details most people never notice. It made him a brilliant film producer, a careful husband, a present father. It also made him an invisible criminal.
+He walked into every room and took inventory-the people, the exits, the small wrong details most people never notice. It made him a brilliant film producer, a careful husband, a present father. It also made him an invisible criminal. ![The Counting Man](/images/books/the-counting-man-cover.jpg)
 
 Then Detective K. Miller arrested him in a mall food court, in front of his wife and children, and the counting began to unravel.
 
