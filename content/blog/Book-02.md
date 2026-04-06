@@ -21,7 +21,7 @@ I am new to this process, and what I have learned is that there is immense value
 
 ## What Else Can I Do as a Reader or Fan to Help?
 The most useful help would look like this:
-- Sign up for the newsletter so I can let you know what is happening
+- [Sign up for the newsletter](https://tridentvisualmedia.com/newsletter/) so I can let you know what is happening
 - Post reviews on Amazon
 - Pass the word! Grass-roots marketing really helps
 - Read the books, and (hopefully) enjoy them!
