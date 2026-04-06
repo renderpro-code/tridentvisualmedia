@@ -1,7 +1,7 @@
 ---
 title: "Coming Soon, The Number Cruncher — Book 2 in the Miller Crime Thriller Series"
 date: 2026-04-06
-tags: ["crime thriller", "new release", "miller series", "kindle", "literary thriller, "coming soon"]
+tags: ["crime thriller", "new release", "miller series", "kindle", "literary thriller", "coming soon"]
 description: "The Number Cruncher is currently being developed and written for Amazon Kindle. A continuation of the Counting Man crime thriller following Detective Miller into a new web of intrigue and financial deceit..."
 ---
 
