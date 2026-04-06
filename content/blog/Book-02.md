@@ -1,4 +1,3 @@
-
 ---
 title: "Coming Soon, The Number Cruncher — Book 2 in the Miller Crime Thriller Series"
 date: 2026-04-06
